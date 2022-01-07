@@ -2,13 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 2rem 6rem;
 }
 
 .navbar__logo-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-right: 1rem;
+  margin-right: 2rem;
 }
 
 .navbar__logo-container img {

@@ -4,7 +4,7 @@ import logo from '../../assets/logo.svg';
 
 const Navbar = () => {
   return (
-    <nav className='navbar section__padding'>
+    <nav className='navbar'>
       <div className='navbar__logo-container'>
         <img src={logo} alt='logo' />
       </div>
