@@ -1,0 +1,17 @@
+.brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brands > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 46px;
+}
+
+.brands div {
+  width: 112px;
+  height: 24px;
+}
