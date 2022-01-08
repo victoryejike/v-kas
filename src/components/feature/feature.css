@@ -3,13 +3,12 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 1rem;
 }
 
 .feature__title {
   flex: 1;
   margin-right: 2rem;
-  max-width: 183px;
+  max-width: 153px;
 }
 
 .feature__title div {
@@ -31,7 +30,6 @@
 
 .feature__description {
   flex: 2;
-  /* max-width: 731px; */
 }
 
 .feature__description p {
