@@ -4,7 +4,7 @@ import { Feature } from '../../components'
 
 const Features = () => {
   return (
-    <section className='features section__padding'>
+    <section className='features section__padding' id='features'>
       <div className='features__heading'>
         <h3 className='gradient__text'>The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.</h3>
         <p>Request Early Access to Get Started</p>
