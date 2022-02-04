@@ -1,0 +1,10 @@
+.blog__maintext {
+  font-size: 62px;
+  font-family: var(--font-family);
+  font-weight: 800;
+  line-height: 75px;
+  color: var(--color-text);
+  letter-spacing: -0.04em;
+  width: 701px;
+  padding-bottom: 6.4rem;
+}
