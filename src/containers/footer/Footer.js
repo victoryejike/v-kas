@@ -3,9 +3,9 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    <div>
+    <section className='section__padding'>
       Footer
-    </div>
+    </section>
   )
 }
 

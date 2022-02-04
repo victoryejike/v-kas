@@ -1,12 +1,12 @@
 import React from 'react'
 import './article.css';
-import Blog1 from '../../assets/blog01.png';
+// import Blog1 from '../../assets/blog01.png';
 
-const Article = () => {
+const Article = ({ image }) => {
   return (
     <div className='article'>
       <div className='article__imgContainer'>
-        <img src={Blog1} alt='article' />
+        <img src={image} alt='article' />
       </div>
       <div className='article__meta'>
         <div className='article__meta--content'>

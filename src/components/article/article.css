@@ -1,6 +1,8 @@
-/* .article {
-  
-} */
+.article {
+  width: 327px;
+  height: 324px;
+  /* padding: 0 0.5rem; */
+}
 
 .article__imgContainer img {
   max-width: 100%;
@@ -14,17 +16,24 @@
   color: #fff;
   font-family: var(--font-family);
   margin-top: -1rem;
-  /* padding: 1rem; */
+  padding: 1rem;
 }
 
 .article__meta--content small {
+  font-family: var(--font-family);
   font-size: 11px;
   font-weight: 700;
   line-height: 35px;
+  /* margin: 15rem 1rem; */
 }
 
 .article__meta--content h4 {
   font-size: 19px;
   font-weight: 800;
   line-height: 30px;
+  width: 284px;
+}
+
+.article__meta:last-child small {
+  cursor: pointer;
 }
