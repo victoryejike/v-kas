@@ -9,7 +9,7 @@ import Blog5 from '../../assets/blog05.png';
 
 const Blog = () => {
   return (
-    <section className='blog section__padding'>
+    <section id='blog' className='blog section__padding'>
       <h2 className='blog__maintext gradient__text'>A lot is happening,<br/> We are blogging about it.</h2>
       <div className='blog__articles'>
         <div className='blog__articles-left'>

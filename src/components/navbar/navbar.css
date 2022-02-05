@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 6rem;
 }
 
 .navbar__logo-container {
@@ -53,4 +52,41 @@
   padding: 0.5rem 1rem;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.navbar__mobile-toggle {
+  display: none;
+}
+
+.navbar svg {
+  color: white;
+  height: 1.5em;
+  width: 1.5em;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 640px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar__mobile-toggle {
+    display: block;
+  }
+
+  .navbar__links-container {
+    flex: 0;
+  }
+
+  .navbar__links-container,
+  .navbar__cta {
+    display: none;
+  }
 }

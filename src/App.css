@@ -66,3 +66,22 @@ a {
 .section__margin {
   margin: 4rem 6rem;
 }
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 640px) {
+  /* body {
+    font-size: 14px;
+  } */
+  .section__padding {
+    padding: 1rem;
+  }
+
+  .section__margin {
+    margin: 1rem;
+  }
+}
