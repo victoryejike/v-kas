@@ -67,3 +67,25 @@
 /* .footer:last-child {
   padding-top: 2rem;
 } */
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 640px) {
+  .footer__heading {
+    width: 100%;
+    /* text-align: left; */
+    font-size: 45px;
+  }
+
+  .footer__links {
+    flex-direction: column;
+  }
+
+  .footer__links > * {
+    padding-bottom: 1.3rem;
+  }
+}
