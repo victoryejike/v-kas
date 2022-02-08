@@ -20,6 +20,18 @@
 }
 
 @media screen and (max-width: 768px) {
+  .brands {
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+  }
+
+  .brands > * {
+    padding: 1.4rem 0;
+  }
+
+  /* .brands div {
+    width: 50px;
+  } */
 }
 
 @media screen and (max-width: 640px) {

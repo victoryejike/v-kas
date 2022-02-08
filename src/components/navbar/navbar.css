@@ -68,6 +68,18 @@
 }
 
 @media screen and (max-width: 768px) {
+  .navbar__mobile-toggle {
+    display: block;
+  }
+
+  .navbar__links-container {
+    flex: 0;
+  }
+
+  .navbar__links-container,
+  .navbar__cta {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 640px) {

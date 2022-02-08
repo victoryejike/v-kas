@@ -90,6 +90,37 @@
 }
 
 @media screen and (max-width: 768px) {
+  .about {
+    padding: 1.4rem;
+  }
+
+  .about__description .feature__description p {
+    padding: 0;
+  }
+
+  .about__caption {
+    margin: 3rem 0;
+  }
+
+  .about__caption h2 {
+    width: 410px;
+    padding-bottom: 3rem;
+  }
+
+  .about__offers {
+    flex-direction: column;
+  }
+
+  .about__offers .feature {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about__offers .feature__description p {
+    width: 100%;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+  }
 }
 
 @media screen and (max-width: 640px) {

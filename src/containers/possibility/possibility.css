@@ -48,6 +48,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .possibility__img-container {
+    max-width: 50%;
+    margin-right: 1rem;
+  }
 }
 
 @media screen and (max-width: 640px) {
