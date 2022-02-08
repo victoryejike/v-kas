@@ -43,3 +43,15 @@
 .possibility__content--footer {
   color: var(--color-subtext);
 }
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 640px) {
+  .possibility {
+    flex-direction: column;
+  }
+}
