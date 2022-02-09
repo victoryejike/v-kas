@@ -87,6 +87,20 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .about__offers {
+    flex-direction: column;
+  }
+
+  .about__offers .feature {
+    display: flex;
+    /* flex-direction: row; */
+  }
+
+  .about__offers .feature__description p {
+    width: 100%;
+    padding-bottom: 2rem;
+    /* padding-left: 1rem; */
+  }
 }
 
 @media screen and (max-width: 768px) {

@@ -68,6 +68,13 @@ a {
 }
 
 @media screen and (max-width: 1024px) {
+  .section__padding {
+    padding: 2rem;
+  }
+
+  .section__margin {
+    margin: 2rem;
+  }
 }
 
 @media screen and (max-width: 768px) {

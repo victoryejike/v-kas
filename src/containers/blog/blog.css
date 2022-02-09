@@ -51,6 +51,25 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .blog__articles-left > .article > .article__imgContainer > img {
+    height: 450px;
+    width: 100%;
+    /* object-fit: 100%; */
+  }
+
+  .blog__articles-left > .article > .article__meta {
+    height: 914px;
+  }
+
+  .blog__articles-right {
+    /* flex: 1; */
+    /* margin-top: 22rem; */
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    row-gap: 1rem;
+    /* flex-wrap: wrap; */
+  }
 }
 
 @media screen and (max-width: 768px) {

@@ -44,6 +44,14 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .features__list {
+    width: 490px;
+  }
+
+  .features__list .feature__description p {
+    padding-left: 0.5rem;
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 768px) {
