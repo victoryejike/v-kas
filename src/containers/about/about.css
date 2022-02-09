@@ -156,12 +156,18 @@
     padding-bottom: 3rem;
   }
 
-  .about__offers {
+  /* .about__offers {
+    flex-direction: column;
+  } */
+
+  .about__offers .feature {
+    display: flex;
     flex-direction: column;
   }
 
   .about__offers .feature__description p {
     width: 100%;
     padding-bottom: 1rem;
+    padding-left: 0;
   }
 }

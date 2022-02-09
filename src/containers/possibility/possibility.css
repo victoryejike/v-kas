@@ -58,4 +58,8 @@
   .possibility {
     flex-direction: column;
   }
+
+  .possibility__img-container {
+    max-width: 100%;
+  }
 }
