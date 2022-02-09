@@ -50,6 +50,12 @@
   margin: auto;
 }
 
+@media screen and (min-width: 1440px) {
+  .blog__articles-right {
+    column-gap: 1rem;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .blog__articles-left > .article > .article__imgContainer > img {
     height: 450px;
